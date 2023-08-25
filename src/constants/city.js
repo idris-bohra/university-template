@@ -1,0 +1,5 @@
+export const CITIES = {
+    LONDON: "LONDON",
+    WASHINGTON: "WASHINGTON",
+    NEWYORK: "NEWYORK",
+}

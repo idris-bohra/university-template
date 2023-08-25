@@ -48,7 +48,7 @@
 }
 
 
-@media (width < 730px) {
+@media (width < 810px) {
     .navbar-main-contianer {
         display: none;
     }

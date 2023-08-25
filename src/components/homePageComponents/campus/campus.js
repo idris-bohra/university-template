@@ -12,8 +12,11 @@ import londonImg from '../../../assets/universityWebsiteAssets/london.png';
 import newyorkImg from '../../../assets/universityWebsiteAssets/newyork.png';
 import washington from '../../../assets/universityWebsiteAssets/washington.png';
 
+// CONSTANTS-IMPORTS.
+import { CITIES } from '../../../constants/city';
+
 // CONSTANTS-DECLARATION.
-const campusCardArr = [{ img: londonImg, city: 'LONDON' }, { img: newyorkImg, city: "NEWYORK" }, { img: washington, city: "WASHINGTON" }];
+const campusCardArr = [{ img: londonImg, city: CITIES.LONDON }, { img: newyorkImg, city: CITIES.NEWYORK }, { img: washington, city: CITIES.WASHINGTON }];
 
 export default function Campus() {
     return (
