@@ -15,7 +15,6 @@ import BlogsPage from './pages/blogsPage/blogsPage';
 import ContactUsPage from './pages/contactUsPage/contactUsPage';
 
 function App() {
-  console.log('hello idris', process.env.REACT_APP_HOME_PATH);
   return (
     <Router>
       <Routes>

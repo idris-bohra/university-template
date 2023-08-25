@@ -5,7 +5,7 @@ import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 // IMAGE-IMPORTS.
-import closeIcon from '../../../assets/universityWebsiteAssets/close-icon.png';
+import closeIcon from '../../../../../assets/universityWebsiteAssets/close-icon.png';
 
 // CSS-IMPORTS.
 import './navbar.css';
