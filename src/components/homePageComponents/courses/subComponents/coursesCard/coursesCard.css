@@ -1,0 +1,29 @@
+.courses-card-main-container {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fcddef;
+    min-width: 200px;
+    max-width: 300px;
+    box-sizing: border-box;
+    animation: card-animation 1s forwards 0.3s 1 alternate ease-in-out;
+    border-radius: 3px;
+}
+
+.courses-card-main-container:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@keyframes card-animation {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+        pointer-events: auto;
+    }
+}

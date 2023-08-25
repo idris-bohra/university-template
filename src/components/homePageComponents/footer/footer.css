@@ -1,0 +1,30 @@
+.footer-main-container .footer-main-title{
+    text-align: center;
+    margin: 0px;
+}
+
+.footer-main-container p {
+    text-align: center;
+    color: grey;
+}
+
+.footer-icon-main-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.footer-icon {
+    font-size: 18px;
+    margin: 0px 7px;
+    cursor: pointer;
+}
+
+.footer-icon-heart {
+    font-size: 17px;
+}
+
+.footer-end-title {
+    padding: 6px;
+}

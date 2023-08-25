@@ -1,0 +1,67 @@
+.campus-card-main-container {
+    min-width: 200px;
+    max-width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    animation: campus-card-animation 1s forwards 0.3s 1 alternate ease-in-out;
+}
+
+.campus-card-image {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.campus-card-image-layer-container {
+    position: relative;
+    border-radius: 3px;
+}
+
+.campus-card-image-layer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.363);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.campus-card-image-layer-container:hover .campus-card-image-layer {
+    opacity: 1;
+}
+
+.campus-card-image-layer .campus-card-city-title {
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: translateY(300px);
+    pointer-events: none;
+}
+
+.campus-card-image-layer-container:hover .campus-card-city-title {
+    opacity: 1;
+    transform: translateY(0px);
+    pointer-events: auto;
+}
+
+@keyframes campus-card-animation {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+        pointer-events: auto;
+    }
+}

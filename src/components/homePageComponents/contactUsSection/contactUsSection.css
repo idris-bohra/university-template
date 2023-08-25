@@ -1,0 +1,87 @@
+.contactUs-section-main-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contactUs-section-banner-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.contactUs-section-image-container {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../../../assets/universityWebsiteAssets/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+    min-width: 260px;
+    max-width: 1110px;
+    width: 1110px;
+    max-height: fit-content;
+    height: 400px;
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contactUs-section-banner-title {
+    text-align: center;
+    padding: 0px;
+    margin: 0px 40px;
+}
+
+.contactUs-section-banner-title-container {
+    position: absolute;
+    top: 35%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.contactUs-section-button {
+    width: fit-content;
+    align-self: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--hover-color--);
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+}
+
+.contactUs-section-button:hover {
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (430px < width < 800px) {
+    .contactUs-section-banner-title {
+        font-size: 1.2rem;
+    }
+
+    .contactUs-section-banner-title-container {
+        top: 30%;
+    }
+}
+
+@media (width <=430px) {
+    .contactUs-section-banner-title {
+        font-size: 1.2rem;
+    }
+
+    .contactUs-section-banner-title-container {
+        top: 20%;
+    }
+}

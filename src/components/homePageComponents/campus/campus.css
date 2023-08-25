@@ -1,0 +1,19 @@
+.campus-title {
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    padding: 0px;
+}
+
+.campus-sub-title {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.campus-show-card-main-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}

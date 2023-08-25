@@ -1,0 +1,43 @@
+.facility-card-main-container {
+    min-width: 200px;
+    max-width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    animation: facility-card-animation 1s forwards 0.3s 1 alternate ease-in-out;
+}
+
+.facility-card-image-container {
+    width: 100%;
+}
+
+.facility-card-image {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.facility-card-city-title {
+    font-weight: 600;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+.facility-card-city-sub-title {
+    font-size: 1rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+@keyframes facility-card-animation {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
