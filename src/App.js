@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // CSS-IMPORTS.
 import './App.css';
+import './globalCss/global.css';
 
 // LOCAL-FILE-IMPORTS.
 import HomePage from './pages/homePage/homePage';

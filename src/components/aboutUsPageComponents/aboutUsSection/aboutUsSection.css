@@ -1,0 +1,31 @@
+.about-us-section-about-image {
+    min-width: 260px;
+    max-width: 500px;
+    min-height: auto;
+    max-height: 500px;
+    margin: 30px;
+    height: auto;
+}
+
+.about-us-section-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
+    padding: 60px;
+}
+
+.about-us-section-description {
+    max-width: 400px;
+    color: grey;
+    height: 100%;
+}
+
+.about-us-section-title {
+    margin: 0px;
+    padding: 0px;
+}
+
+.about-us-section-text-container {
+    margin: 30px 30px 0px 30px;
+}

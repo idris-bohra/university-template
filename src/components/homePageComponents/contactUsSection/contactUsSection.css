@@ -45,27 +45,6 @@
     padding: 10px;
 }
 
-.contactUs-section-button {
-    width: fit-content;
-    align-self: center;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: var(--hover-color--);
-    font-size: 1rem;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    color: white;
-    padding: 10px 30px;
-}
-
-.contactUs-section-button:hover {
-    color: white;
-    transform: translateY(-2px);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
 @media (430px < width < 800px) {
     .contactUs-section-banner-title {
         font-size: 1.2rem;

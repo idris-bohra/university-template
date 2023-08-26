@@ -3,10 +3,10 @@
     margin-bottom: 7px;
 }
 
-.navbar-main-contianer li {
+.navbar-main-contianer .navbar-links {
     list-style: none;
     padding: 0px 20px;
-    font-size: 1.3rem;
+    font-size: 1rem;
     cursor: pointer;
     font-weight: 500;
     font-family: 'Poppins', 'sans-serif';
@@ -18,7 +18,7 @@
     display: block;
     background-color: var(--hover-color--);
     width: 0%;
-    height: 3px;
+    height: 2px;
     transition: .5s;
 }
 
