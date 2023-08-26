@@ -1,0 +1,21 @@
+.course-page-header-main-container {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../../../assets/universityWebsiteAssets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 60vh;
+    max-width: 100vw;
+    position: relative;
+}
+
+.course-page-header-main-title-container {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.course-page-header-main-title {
+    text-align: center;
+    color: white;
+}

@@ -6,6 +6,9 @@
 .footer-main-container p {
     text-align: center;
     color: grey;
+}
+
+.footer-main-container {
     padding: 20px;
 }
 
