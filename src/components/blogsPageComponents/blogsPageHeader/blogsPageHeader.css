@@ -1,4 +1,4 @@
-.about-us-header-main-container {
+.blogs-page-header-main-container {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../../../assets/universityWebsiteAssets/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,14 +9,21 @@
     position: relative;
 }
 
-.about-us-header-main-title-container {
+.blogs-page-header-main-title-container {
     position: absolute;
     top: 50%;
     width: 100%;
     transform: translateY(-50%);
 }
 
-.about-us-header-main-title {
+.blogs-page-header-main-title {
     text-align: center;
     color: white;
+    padding: 5px;
+}
+
+@media (width <=800px) {
+    .blogs-page-header-main-title {
+        font-size: 1.5rem;
+    }
 }

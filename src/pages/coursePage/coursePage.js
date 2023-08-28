@@ -12,11 +12,11 @@ import Footer from '../../components/commonComponents/footer/footer';
 
 export default function CoursePage() {
     return (
-        <div>
+        <React.Fragment>
             <CoursePageHeader />
             <Courses />
             <OurFacilities />
             <Footer />
-        </div>
+        </React.Fragment>
     )
 }

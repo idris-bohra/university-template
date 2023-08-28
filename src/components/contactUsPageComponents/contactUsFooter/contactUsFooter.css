@@ -1,0 +1,113 @@
+.contact-us-footer-main-container {
+    padding: 40px;
+    margin: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.contact-us-footer-contact-details-main-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.contact-us-footer-input-main-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-width: 50%;
+    max-width: 50%;
+}
+
+.contact-us-footer-contact-details-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.contact-us-footer-icon {
+    font-size: 24px;
+    margin: 10px 40px 10px 0px;
+}
+
+.contact-us-footer-contact-details-title {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact-us-footer-contact-details-sub-title {
+    padding: 0px;
+    margin: 0px;
+    color: grey;
+}
+
+.contact-us-footer-input-filed {
+    padding: 14px 10px;
+    outline: none;
+    border: 1px solid lightgrey;
+    margin: 7px 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contact-us-footer-input-filed-textarea {
+    padding: 14px 10px;
+    outline: none;
+    border: 1px solid lightgrey;
+    margin: 7px 0px;
+    min-width: 100%;
+    max-width: 100%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.contact-us-footer-send-message-btn {
+    padding: 10px;
+    width: fit-content;
+    color: salmon;
+    border: 1px solid salmon;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+.contact-us-footer-send-message-btn:hover,
+.contact-us-footer-send-message-btn:focus {
+    color: white;
+    background-color: salmon;
+}
+
+@media (width <=800px) {
+    .contact-us-footer-main-container {
+        padding: 10px;
+        margin: 10px 30px;
+    }
+}
+
+@media (width <=1000px) {
+    .contact-us-footer-main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-us-footer-contact-details-main-container {
+        width: 100%;
+    }
+
+    .contact-us-footer-input-main-container {
+        margin-top: 40px;
+        min-width: 100%;
+    }
+
+    .contact-us-footer-contact-details-title {
+        font-size: 0.8rem;
+    }
+}

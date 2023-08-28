@@ -1,0 +1,39 @@
+.post-categories-section-main-container {
+    width: 40%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.post-categories-head-title {
+    width: 100%;
+    align-self: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--hover-color--);
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.post-categories-section-categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-categories-section-single-catogory-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4px;
+}
+
+@media (width <=800px) {
+    .post-categories-section-main-container {
+        width: 100%;
+    }
+}

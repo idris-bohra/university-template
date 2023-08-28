@@ -1,0 +1,22 @@
+.contact-us-map-main-container {
+    padding: 40px;
+    margin: 100px 60px 10px 60px;
+    box-sizing: border-box;
+}
+
+.contact-us-map-iframe {
+    width: 100%;
+    height: 500px;
+}
+
+@media (width <=800px) {
+    .contact-us-map-main-container {
+        padding: 10px;
+        margin: 30px;
+    }
+
+    .contact-us-map-iframe {
+        width: 100%;
+        height: 300px;
+    }
+}

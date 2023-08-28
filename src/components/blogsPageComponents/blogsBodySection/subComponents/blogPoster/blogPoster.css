@@ -1,0 +1,26 @@
+.blog-poster-main-container {
+    width: 60%;
+    min-width: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.blog-poster-image {
+    max-width: 100%;
+    max-height: auto;
+    min-width: 250px;
+}
+
+.blog-poster-title {
+    margin: 20px 0px;
+}
+
+.blog-poster-description {
+    color: grey;
+}
+
+@media (width <= 800px) {
+    .blog-poster-main-container {
+        width: 100%;
+    }    
+}
