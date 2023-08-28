@@ -3,3 +3,18 @@
   --hover-color--: #f44336;
   font-family: 'Poppins', 'sans-serif';
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--hover-color--);
+  border-radius: 10px;
+  padding: 7px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: white;
+}
