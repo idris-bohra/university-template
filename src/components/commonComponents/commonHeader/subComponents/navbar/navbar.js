@@ -10,6 +10,9 @@ import closeIcon from '../../../../../assets/universityWebsiteAssets/close-icon.
 // CSS-IMPORTS.
 import './navbar.css';
 
+// LOCAL-FILE-IMPORTS.
+import ROUTES from '../../../../../constants/routes';
+
 export default function Navbar() {
 
   // USE-REF.
@@ -37,11 +40,11 @@ export default function Navbar() {
     <React.Fragment>
       <div ref={navbarRef} className='navbar-main-contianer navbar-main-contianer-slider'>
         <img className='close-icon' src={closeIcon} alt="This is close-icon" onClick={openCloseNavbarForSmallScreen} />
-        <li className='navbar-links' link-attribute={process.env.REACT_APP_HOME_PATH} onClick={handleOnLinksClick}>Home</li>
-        <li className='navbar-links' link-attribute={process.env.REACT_APP_ABOUTUS_PATH} onClick={handleOnLinksClick}>About Us</li>
-        <li className='navbar-links' link-attribute={process.env.REACT_APP_COURSES_PATH} onClick={handleOnLinksClick}>Courses</li>
-        <li className='navbar-links' link-attribute={process.env.REACT_APP_BLOGS_PATH} onClick={handleOnLinksClick}>Blogs</li>
-        <li className='navbar-links' link-attribute={process.env.REACT_APP_CONTACTUS_PATH} onClick={handleOnLinksClick}>Contact Us</li>
+        <li className='navbar-links' link-attribute={ROUTES.HOME} onClick={handleOnLinksClick}>Home</li>
+        <li className='navbar-links' link-attribute={ROUTES.ABOUTUS} onClick={handleOnLinksClick}>About Us</li>
+        <li className='navbar-links' link-attribute={ROUTES.COURSES} onClick={handleOnLinksClick}>Courses</li>
+        <li className='navbar-links' link-attribute={ROUTES.BLOGS} onClick={handleOnLinksClick}>Blogs</li>
+        <li className='navbar-links' link-attribute={ROUTES.CONTACTUS} onClick={handleOnLinksClick}>Contact Us</li>
       </div>
       <div ref={hamburgerContainerRef} className='hamburger-main-container' onClick={openCloseNavbarForSmallScreen}>
         <span className='hamburger-line hamburger-line1'></span>

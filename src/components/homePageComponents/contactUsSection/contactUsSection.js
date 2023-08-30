@@ -7,6 +7,9 @@ import { useNavigate } from 'react-router-dom';
 // CSS-IMPORTS.
 import './contactUsSection.css';
 
+// LOCAL-FILE-IMPORTS.
+import ROUTES from '../../../constants/routes';
+
 export default function ContactUsSection() {
 
     // USE-NAVIGATE.
@@ -14,7 +17,7 @@ export default function ContactUsSection() {
 
     // HANDLER-FUNCTIONS.
     const handleContactUsbtnClick = () => {
-        navigate(process.env.REACT_APP_CONTACTUS_PATH);
+        navigate(ROUTES.CONTACTUS);
     }
 
     return (

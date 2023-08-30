@@ -10,6 +10,9 @@ import { useNavigate } from 'react-router-dom';
 // IMAGE-IMPORTS.
 import aboutUsSectionImage from '../../../assets/universityWebsiteAssets/about.jpg';
 
+// LOCAL-FILE-IMPORTS.
+import ROUTES from '../../../constants/routes';
+
 export default function AboutUsSection() {
 
     // USE-NAVIGATE.
@@ -17,7 +20,7 @@ export default function AboutUsSection() {
 
     // HANDLER-FUNCTIONS.
     const handleContactUsbtnClick = () => {
-        navigate(process.env.REACT_APP_CONTACTUS_PATH);
+        navigate(ROUTES.CONTACTUS);
     }
 
     return (
@@ -25,7 +28,11 @@ export default function AboutUsSection() {
             <div className='about-us-section-text-container'>
                 <h1 className='about-us-section-title'>We are the world's largest <br /> University</h1>
                 <div className='about-us-section-description'>
-                    <p>Welcome to dream university, where knowledge meets innovation and dreams take flight. As a premier institution of higher learning, we are committed to nurturing intellectual curiosity, fostering creativity, and empowering the next generation of leaders</p>
+                    <p>
+                        Welcome to dream university, where knowledge meets innovation and dreams take flight. As a premier institution of
+                        higher learning, we are committed to nurturing intellectual curiosity, fostering creativity, and empowering the next
+                        generation of leaders.
+                    </p>
                 </div>
                 <button onClick={handleContactUsbtnClick} className='global-contact-us-btn'>Contact Us</button>
             </div>
