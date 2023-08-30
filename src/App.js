@@ -2,7 +2,7 @@
 import React from 'react';
 
 // REACT-ROUTER-DOM-IMPORTS.
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 // CSS-IMPORTS.
 import './App.css';
@@ -18,7 +18,7 @@ import ContactUsPage from './pages/contactUsPage/contactUsPage';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route exact path={process.env.REACT_APP_CONTACTUS_PATH} element={<ContactUsPage />} />
         <Route exact path={process.env.REACT_APP_BLOGS_PATH} element={<BlogsPage />} />
@@ -26,7 +26,7 @@ function App() {
         <Route exact path={process.env.REACT_APP_ABOUTUS_PATH} element={<AboutUsPage />} />
         <Route exact path={process.env.REACT_APP_HOME_PATH} element={<HomePage />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
