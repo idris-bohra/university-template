@@ -1,6 +1,6 @@
 const ROUTES = Object.freeze({
     HOME: '/',
-    ABOUTUS: 'aboutus',
+    ABOUTUS: '/aboutus',
     COURSES: '/courses',
     BLOGS: '/blogs',
     CONTACTUS: '/contactus',
